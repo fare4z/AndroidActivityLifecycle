@@ -19,20 +19,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d("Lifecycle", "onCreate: Activity created");
 
         btnSubmit = findViewById(R.id.btnSubmit);
         tvOutput = findViewById(R.id.tvOutput);
         bilangan = 0;
 
-
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 bilangan++;
-
                 tvOutput.setText(bilangan.toString());
-                Log.d("Lifecycle", "onCreate: Activity created");
-
             }
         });
     }
@@ -74,5 +71,5 @@ public class MainActivity extends AppCompatActivity {
         Log.d("Lifecycle", "onRestart: Activity restarted");
     }
 
-    
+
 }
