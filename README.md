@@ -1,9 +1,11 @@
 ### Android Activity Lifecycle
 
+![alt text for screen readers](androidlifecycle.png "Apps Interface").
+
 This repository provides examples in Java for understanding the Android Activity Lifecycle from `onStart` until `onDestroy`.
 
 #### Introduction
-Understanding the Android Activity Lifecycle is crucial for Android developers as it governs how activities behave throughout their lifetime. This repository aims to provide clear examples to help students grasp the concepts effectively.
+Understanding the Android Activity Lifecycle is crucial for Android developers as it governs how activities behave throughout their lifetime. This repository aims to provide clear examples to help Politeknik Seberang Perai JTMK students grasp the concepts effectively.
 
 #### Features
 - Detailed examples for each stage of the Android Activity Lifecycle.
